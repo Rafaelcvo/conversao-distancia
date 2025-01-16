@@ -1,1 +1,8 @@
 https://www.youtube.com/watch?v=uUzO2Sh1dR0
+https://www.youtube.com/watch?v=CCwiVpfOnto
+
+kubectl apply -f k8s/deployment.yaml
+kubectl get pods
+kubectl describe pod
+kubectl get replicaset
+kubectl port-forward pod/conversao-distancia-66f644c88c-rql6l 8080:5000
